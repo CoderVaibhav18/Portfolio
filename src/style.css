@@ -8,7 +8,8 @@ body {
   background-color: #1d1616;
 }
 .width-margin {
-  max-width: 70rem;
+  padding: 0 20px;
+  max-width: 71.5rem;
   margin: 0 auto;
 }
 
@@ -75,9 +76,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  nav {
-    padding: 0 20px;
-  }
   .right-section {
     display: none;
     position: absolute;
