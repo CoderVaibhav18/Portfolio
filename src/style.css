@@ -75,6 +75,83 @@ body {
   position: relative; /* For absolute positioning of mobile menu */
 }
 
+.hero-section {
+  color: #fff;
+  margin-top: 70px;
+}
+
+.content-section {
+  margin-top: 10px;
+  h6 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+}
+.button {
+  margin-top: 20px;
+  padding: 8px 20px;
+  font-size: 1.1rem;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: #8e1616; /* Dark red background */
+  color: #ffffff; /* White text */
+  border: 2px solid #8e1616; /* Matching border */
+  transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+  position: relative; /* For potential pseudo-elements */
+  overflow: hidden; /* For gradient animation */
+}
+
+.button:hover {
+  background-color: #6e1010; /* Darker red on hover */
+  box-shadow: 0 0 15px rgba(142, 22, 22, 0.5); /* Glowing effect */
+  transform: scale(1.05); /* Slight scale up */
+}
+
+/* Optional: Add a subtle gradient animation */
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transition: 0.6s;
+}
+
+.button:hover::before {
+  left: 100%;
+}
+
+/* Optional: Add click animation */
+.button:active {
+  transform: scale(0.95);
+}
+
+.bar-line {
+  height: 5px;
+  width: 100px;
+  background: #8e1616;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   .right-section {
     display: none;
