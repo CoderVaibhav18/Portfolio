@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #1d1616;
+}
+.width-margin {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  height: 65px;
+  color: #fff;
+  border-bottom: 1.5px solid #8e1616;
+}
+.mobile-menu {
+  display: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.btn {
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.left-section h3 {
+  font-weight: 450;
+  font-size: 1.3rem;
+}
+
+.right-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-left: 5rem;
+  list-style: none;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      color: #8e1616;
+    }
+  }
+}
+
+.logo-font {
+  color: #8e1616;
+}
+
+.hamburger-menu {
+  display: none;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.activeNavLink {
+  display: block;
+}
+
+/* Add this to your CSS */
+.navbar {
+  position: relative; /* For absolute positioning of mobile menu */
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 20px;
+  }
+  .right-section {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below navbar */
+    left: 0;
+    width: 100%;
+    background: #1d1616;
+    z-index: 1000;
+    padding: 0 20px;
+    border-bottom: 2px solid #8e1616;
+  }
+
+  .right-section.activeNavLink {
+    display: block;
+  }
+
+  .right-section ul {
+    flex-direction: column;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .right-section li {
+    padding: 10px 0;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
