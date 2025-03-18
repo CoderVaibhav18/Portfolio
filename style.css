@@ -380,7 +380,7 @@ footer{
   color: #fff;
   font-size: .9rem;
   margin-top: 50px;
-  border: 1px solid #3a3939;
+  border-top: 1px solid #3a3939;
 
   .credit{
     color: #b11f1f;
