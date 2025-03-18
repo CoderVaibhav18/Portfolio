@@ -214,7 +214,7 @@ body {
       button{
         margin-right: 2px;
         margin-top: 20px;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         background: transparent;
         outline: none;
         color: #fff;
