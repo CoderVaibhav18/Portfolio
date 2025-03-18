@@ -154,13 +154,13 @@ body {
 }
 
 /* About section */
-
 .about-section {
   margin-top: 12rem;
   color: #fff;
 
-  .about-summary{
-    opacity: .5;
+  .about-summary {
+    opacity: 0.5;
+    font-weight: 300;
   }
 
   .about-text {
@@ -182,6 +182,50 @@ body {
         height: 24px;
         width: 4px;
         background: #8e1616;
+      }
+    }
+  }
+}
+
+/* Skills section */
+.skills-section {
+  margin-top: 8rem;
+  color: #fff;
+
+  .skills-part {
+    position: relative;
+    h1 {
+      margin-left: 20px;
+      font-weight: 500;
+      font-size: 1.5rem;
+      
+    }
+    .horizontal-line {
+      position: absolute;
+      top: 5px;
+      left: 0;
+      height: 24px;
+      width: 4px;
+      background: #8e1616;
+    }
+
+    .tech-stack{
+     
+      button{
+        margin-right: 2px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: transparent;
+        outline: none;
+        color: #fff;
+        border: 1px solid #3a3939;
+        border-radius: 10px;
+        padding: 6px 16px;
+        cursor: pointer;
+
+        &:hover{
+          border: 1px solid #696464;
+        }
       }
     }
   }
