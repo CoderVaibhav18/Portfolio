@@ -19,7 +19,8 @@
   </head>
   <body>
     <header class="nav-bar">
-      <nav class="navbar width-margin">
+      <!-- NavBar section -->
+      <nav class="navbar width-margin" id="home">
         <div class="left-section">
           <h3>
             <span class="logo-font">V</span>aibhav's
@@ -29,7 +30,7 @@
         <div class="right-section">
           <ul>
             <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#about-section">ABOUT</a></li>
             <li><a href="#skills">SKILLS</a></li>
             <li><a href="#projects">PROJECTS</a></li>
             <li><a href="#contact">CONTACT US</a></li>
@@ -51,7 +52,6 @@
       </nav>
     </header>
     <main>
-
       <!-- hero section -->
       <section class="hero-section width-margin">
         <div class="content-section">
@@ -63,31 +63,42 @@
             A passionate full-stack web developer who can develop any type of
             web application from scratch with efficiency and precision.
           </p>
+          <a
+            href="./public/resume/vaibhav_Resume2.pdf"
+            download="Vaibhav_Resume"
+          >
+            <button class="downloadBtn">Download CV</button></a
+          >
 
-          <button class="downloadBtn">Download CV</button>
-
+          <!-- social media section -->
           <div class="socio-section">
             <div class="socio-icon unique">
               <a
                 title="github"
                 aria-label="menu"
+                rel="noopener"
                 href="https://github.com/CoderVaibhav18"
+                target="_blank"
                 ><img src="./public/images/github.svg" alt=""
               /></a>
             </div>
             <div class="socio-icon unique2">
               <a
-                title="github"
+                title="linkedin"
                 aria-label="menu"
+                rel="noopener"
                 href="https://www.linkedin.com/in/vaibhav-sathe89"
+                target="_blank"
                 ><img src="./public/images/linkedin.svg" alt=""
               /></a>
             </div>
             <div class="socio-icon unique">
               <a
-                title="github"
+                title="instagram"
+                rel="noopener"
                 aria-label="menu"
-                href="https://www.linkedin.com/in/vaibhav-sathe89"
+                href="https://www.instagram.com/er_vaibhavv18/"
+                target="_blank"
                 ><img src="./public/images/instagram.svg" alt=""
               /></a>
             </div>
@@ -97,6 +108,26 @@
       </section>
 
       <!-- About us section -->
+      <section class="about-section width-margin" id="about-section">
+        <div class="about-text">
+          <div class="about-heading">
+            <div class="horizontal-line"></div>
+            <h1>About Us</h1>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos architecto ipsa nostrum fugit ex quasi assumenda. Vel
+              dicta non molestias earum distinctio fugiat blanditiis
+              reprehenderit cumque doloribus illum consequuntur quasi eveniet
+              voluptatum quaerat eum, perferendis magnam explicabo sint ratione,
+              officia optio. Consectetur velit recusandae voluptas vitae
+              doloremque ea ullam incidunt!
+            </p>
+          </div>
+        </div>
+        <div class="image-portion"></div>
+      </section>
     </main>
     <footer></footer>
     <script src="script.js"></script>
