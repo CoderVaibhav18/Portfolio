@@ -404,6 +404,21 @@ body {
       padding: 20px;
 
       .contact-details {
+        width: 100%;
+        position: relative;
+        .horizontal-line {
+          position: absolute;
+          top: 0;
+          left: 0;
+          /* bottom: 5px; */
+          height: 1.4rem;
+          width: 0.2rem;
+          background: #8e1616;
+        }
+        h4 {
+          margin-left: 15px;
+          font-weight: 500;
+        }
         position: relative;
 
         .horizontal-line {
@@ -457,9 +472,8 @@ body {
           width: 100%;
           color: #fff;
           .input-field {
-            
             width: 100%;
-            .inp{
+            .inp {
               display: flex;
               gap: 9px;
               margin-bottom: 10px;
@@ -475,20 +489,20 @@ body {
               border-radius: 5px;
               padding: 6px 18px;
             }
-            .text{
+            .text {
               width: 100%;
               display: flex;
               flex-direction: column;
               gap: 10px;
-              
-              .textinput{
+
+              .textinput {
                 color: #fff;
-              font-size: 0.9rem;
-              background: transparent;
-              outline: none;
-              border: 1px solid #696464;
-              border-radius: 5px;
-              padding: 6px 18px;
+                font-size: 0.9rem;
+                background: transparent;
+                outline: none;
+                border: 1px solid #696464;
+                border-radius: 5px;
+                padding: 6px 18px;
               }
             }
           }
@@ -532,7 +546,7 @@ footer {
     margin-top: 8px;
   }
 
-  div{
+  div {
     padding: 0 10px;
     text-align: center;
   }
