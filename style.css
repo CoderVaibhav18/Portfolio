@@ -158,14 +158,14 @@ body {
   color: #fff;
 
   .about-summary {
-    opacity: 0.5;
-    font-weight: 300;
+    opacity: 0.6;
   }
 
   .about-text {
-    p {
+    .about {
       margin-top: 1.25rem;
       text-align: justify;
+      font-size: 1rem;
     }
     .about-heading {
       position: relative;
