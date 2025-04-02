@@ -3,7 +3,7 @@ const navLinks = document.querySelector(".right-section");
 const navItems = document.querySelectorAll(".right-section a");
 
 var typed = new Typed("#element", {
-  strings: ["Software Developer", "FullStack Developer"],
+  strings: ["Software Developer", "FullStack Developer."],
   typeSpeed: 50,
 });
 
